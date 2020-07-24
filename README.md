@@ -30,9 +30,7 @@ Dataset Link: https://www.kaggle.com/c/walmart-recruiting-store-sales-forecastin
 <br>
 
 **4) Model Building & Validation**
-- Baseline Accuracy
-- Random Forest Classifier
-- Neural Network Classifier
+- Ordinary Least Squares
 - XGBoost Classifier
 - Model Comparison
 <br>
