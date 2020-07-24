@@ -31,7 +31,7 @@ Dataset Link: https://www.kaggle.com/c/walmart-recruiting-store-sales-forecastin
 
 **4) Model Building & Validation**
 - Ordinary Least Squares
-- XGBoost Classifier
+- XGBoost Regressor
 - Model Comparison
 <br>
 
