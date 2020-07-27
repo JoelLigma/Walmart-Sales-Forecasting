@@ -2,7 +2,7 @@
 
 Date: July 2020 - July 2020
 
-Context
+**Context**
 
 The data provided for this project contains historical sales data for 45 Walmart stores located in different regions of the US. Each store contains a number of departments, and the goal for this project is to predict the department-wide sales for each store.
 
@@ -10,10 +10,10 @@ In addition, Walmart runs several promotional markdown events throughout the yea
 
 For convenience, the four holidays fall within the following weeks in the dataset (not all holidays are in the data):
 
-Super Bowl: 12-Feb-10, 11-Feb-11, 10-Feb-12, 8-Feb-13
-Labor Day: 10-Sep-10, 9-Sep-11, 7-Sep-12, 6-Sep-13
-Thanksgiving: 26-Nov-10, 25-Nov-11, 23-Nov-12, 29-Nov-13
-Christmas: 31-Dec-10, 30-Dec-11, 28-Dec-12, 27-Dec-13
+- Super Bowl: 12-Feb-10, 11-Feb-11, 10-Feb-12, 8-Feb-13
+- Labor Day: 10-Sep-10, 9-Sep-11, 7-Sep-12, 6-Sep-13
+- Thanksgiving: 26-Nov-10, 25-Nov-11, 23-Nov-12, 29-Nov-13
+- Christmas: 31-Dec-10, 30-Dec-11, 28-Dec-12, 27-Dec-13
 
 Dataset Link: https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/overview/description
 
@@ -80,16 +80,16 @@ The lower the RMSE value, the better the fit.
 Source: https://www.google.com/search?q=rmse&rlz=1C1CHBF_enUS902US902&oq=RMSE&aqs=chrome.0.0l8.575j0j4&sourceid=chrome&ie=UTF-8
 
 Linear Regression
-RMSE: 8810.42
-adj R2: 0.6689
+- RMSE: 8810.42
+- adj R2: 0.6689
 
 Random Forest
-RMSE: 2219.03
-adj R2: 0.9789
+- RMSE: 2219.03
+- adj R2: 0.9789
 
 XGBoost
-RMSE: 4005.47
-adj R2: 0.9315
+- RMSE: 4005.47
+- adj R2: 0.9315
 
 We can clearly see that Linear Regression did not perform well on our data. Presumably, because this model fails at finding relationships that are non-linear in nature. Our dataset probably has these types of relationships. On the other side, the Random Forest model performed very well. It showed an adj R2 of 0.9789 which means the model can explain around 97% of the variance in the data. Further, it displays an RMSE of 2219.03, which is the lowest error among the 3 models. Therefore, the Random Forest model is selected as best performing model.
 
