@@ -51,6 +51,8 @@ Dataset Link: https://www.kaggle.com/c/walmart-recruiting-store-sales-forecastin
 
 # Results
 
+**Model Evaluation Explanation**
+
 Due to limited computational resources we will simply go with the default model results. Ideally, we would go back and tune the model hyperparameters to further improve the model performance by reducing the prediction error.
 
 To compare the 3 models, we will use adjusted R2 and RMSE metrics.
@@ -78,6 +80,8 @@ We will use RMSE because this metric has some advantages over MAE and MSE. The M
 The lower the RMSE value, the better the fit.
 
 Source: https://www.google.com/search?q=rmse&rlz=1C1CHBF_enUS902US902&oq=RMSE&aqs=chrome.0.0l8.575j0j4&sourceid=chrome&ie=UTF-8
+
+** Model Results**
 
 Linear Regression
 - RMSE: 8810.42
