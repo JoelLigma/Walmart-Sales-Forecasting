@@ -81,7 +81,7 @@ The lower the RMSE value, the better the fit.
 
 Source: https://www.google.com/search?q=rmse&rlz=1C1CHBF_enUS902US902&oq=RMSE&aqs=chrome.0.0l8.575j0j4&sourceid=chrome&ie=UTF-8
 
-** Model Results**
+**Model Results**
 
 Linear Regression
 - RMSE: 8810.42
